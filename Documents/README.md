@@ -1,1 +1,0 @@
-# Identifying-and-classifying-book-covers-using-YOLO

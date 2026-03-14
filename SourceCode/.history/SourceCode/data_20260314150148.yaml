@@ -1,0 +1,10 @@
+path: ./dataset 
+
+train: images/train
+val: images/val
+
+nc: 3 
+names:
+  0: Sach_Loai_1
+  1: Sach_Loai_2
+  2: Sach_Loai_3
