@@ -5,8 +5,13 @@ cap = cv2.VideoCapture(camera_id)
 
 while True:
     ret, frame = cap.read()
+    if not ret:
+        print("Không lấy được frame từ camera")
+        break
+
     cv2.imshow("Cam", frame)
-    if cv2.waitKey(1) & 0xFF = ord('q'):
+
+    if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 cap.release()

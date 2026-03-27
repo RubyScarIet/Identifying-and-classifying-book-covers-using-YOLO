@@ -1,10 +1,11 @@
-path: ./dataset 
+path: "C:/Users/tinca/OneDrive/Desktop/Identifying and classifying book covers using YOLO/SourceCode/dataset"
 
 train: images/train
 val: images/val
 
-nc: 3 
+nc: 3
+
 names:
-  0: Sach_Loai_1
-  1: Sach_Loai_2
-  2: Sach_Loai_3
+  0: Bia_sach
+  1: Ten_sach
+  2: Logo_nxh

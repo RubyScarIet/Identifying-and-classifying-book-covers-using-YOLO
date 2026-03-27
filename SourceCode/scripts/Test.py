@@ -1,5 +1,9 @@
-from ultralytics import YOLO
+import os
 
-model = YOLO('yolov8n.pt') 
+path = "C:/Users/tinca/OneDrive/Desktop/Identifying and classifying book covers using YOLO/SourceCode/dataset"
 
-print("Môi trường YOLO đã sẵn sàng!")
+if os.path.exists(path):
+    print("✅ Đường dẫn chính xác!")
+    print(f"Danh sách thư mục con: {os.listdir(path)}")
+else:
+    print("❌ Không tìm thấy đường dẫn. Hãy kiểm tra lại!")
