@@ -1,0 +1,4 @@
+0: bia_sach
+1: ten_sach
+2: logo_nxb
+3: so_tap
