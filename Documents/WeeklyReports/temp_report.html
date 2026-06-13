@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; color: #000; }
+        h1 { text-align: center; color: #2c3e50; }
+        h3 { color: #34495e; }
+        ul { margin-left: 20px; }
+        li { margin-bottom: 10px; text-align: justify; }
+        .footer { margin-top: 50px; text-align: right; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>BÁO CÁO TIẾN ĐỘ THỰC HIỆN DỰ ÁN</h1>
+    <h3>Mã sinh viên: B23DCVT416</h3>
+    <h3>Ngày báo cáo: 13/06/2026</h3>
+    <h3>Tên dự án: Identifying and classifying book covers using YOLO</h3>
+    
+    <hr>
+    
+    <h3>Nội dung công việc đã thực hiện:</h3>
+    <ul>
+        <li><b>Tối ưu hóa hệ thống nhận diện thời gian thực (Real-time Detection):</b> Chuyển đổi mã nguồn nhận diện sang kỹ thuật Đa luồng (Multi-threading). Tách biệt luồng lấy ảnh từ camera và luồng AI suy luận, giúp ứng dụng duy trì tốc độ khung hình cao (30 FPS), khắc phục triệt để tình trạng giật lag màn hình.</li>
+        <li><b>Cải thiện độ chính xác của bộ đọc chữ (OCR):</b> Tích hợp thuật toán tiền xử lý ảnh CLAHE (Contrast Limited Adaptive Histogram Equalization) để khử bóng lóa (glare) do ánh sáng phản chiếu trên bìa sách bóng. Khôi phục độ tương phản viền chữ trước khi đưa vào EasyOCR.</li>
+        <li><b>Mở rộng kết nối thiết bị ngoại vi:</b> Bổ sung khả năng nhận diện hình ảnh qua IP Webcam (Wi-Fi Stream) và cấu hình backend <code>cv2.CAP_DSHOW</code>. Cho phép kết nối và sử dụng trực tiếp camera chất lượng cao từ thiết bị di động/Tablet thông qua cáp Type-C.</li>
+        <li><b>Phát triển Giao diện Web (Streamlit UI):</b> Xây dựng ứng dụng tương tác bằng thư viện Streamlit (<code>app_streamlit.py</code>) thay thế cho dòng lệnh Terminal. Tích hợp giao diện Dark-mode, hỗ trợ tải ảnh trực tiếp hoặc chụp ảnh qua webcam trình duyệt.</li>
+        <li><b>Quản lý mô hình thông minh:</b> Lập trình cơ chế tải trọng số (weights) linh hoạt, tự động liên kết tới <code>yolo_train2/weights/best.pt</code>. Bổ sung tính năng kéo-thả file <code>.pt</code> trực tiếp trên giao diện web và tính năng fallback tự động tải pre-trained model.</li>
+    </ul>
+    
+    <div class="footer">
+        <p>Sinh viên thực hiện</p>
+        <br><br>
+        <p>B23DCVT416</p>
+    </div>
+</body>
+</html>
