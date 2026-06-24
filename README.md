@@ -65,6 +65,3 @@ Cách này sử dụng trực tiếp OpenCV để bật cửa sổ phần mềm,
 - **Kiểm tra đường dẫn dữ liệu:** Chạy lệnh `python scripts/Test.py`.
 - **Huấn luyện mô hình mới:** Chạy lệnh `python scripts/train_and_show.py`.
 - **Xử lý dữ liệu:** Sử dụng các file `split_dataset.py`, `merge_dataset.py`, `rename_images.py` trong thư mục `scripts/`.
-
----
-*Dự án được thực hiện nhằm đáp ứng yêu cầu của học phần Thực tập cơ sở.*
